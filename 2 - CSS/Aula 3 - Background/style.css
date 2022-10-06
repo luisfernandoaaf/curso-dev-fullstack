@@ -1,0 +1,16 @@
+body {
+    background-image: url(the\ second\ coming\ of\ gluttony.webp);
+    background-repeat: no-repeat;
+    /* background-position: 50% 50%; */
+    background-position: center center;
+    background-size: 1520px 725px;
+    background-attachment: fixed;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(255, 255, 255);
+}

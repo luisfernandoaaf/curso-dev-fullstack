@@ -1,0 +1,52 @@
+body {
+    background: #dfdfdf;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(34, 34, 34);
+}    
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.foto-principal {
+    width: 150px;
+    border: 2px solid #ffffff; /* forma shorthand */ 
+    border-radius: 50%;
+    margin: 30px 30px 0 30px /* 0 n precisa colocar px. O último valor, 30px n é necessário pq o valor do meio já diz q a margem da esq. vai ser a mesma da dir., mas coloquei pra lembrar do sentido horário - cima,direita,baixo,esquerda. */
+    padding: 5px;
+    box-shadow: 0px 0px 10px #959595;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    margin-top: 0;
+    font-style: italic;
+    color: rgb(73, 73, 73);
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+
+.social-links {
+    text-decoration: none;
+}
+
+.social-icons {
+    width: 20px;
+}
+/* O height n precisa já q é auto. Então só o width é suficiente. */
+
+.github {
+    margin: 0 15px 0 15px;
+}

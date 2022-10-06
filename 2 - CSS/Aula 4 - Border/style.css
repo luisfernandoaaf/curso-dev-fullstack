@@ -1,0 +1,28 @@
+body {
+    background: #dfdfdf;
+}
+
+p {
+    color: rgb(34, 34, 34);
+}
+
+.foto-principal {
+    width: 150px;
+    border: 2px solid #ffffff; /* forma shorthand */ 
+    border-radius: 50%;
+   
+     /* border-style: dotted solid double dashed; ordem de alteração com 4: cima, direita, embaixo, esquerda, respectivamente.
+    border-style: dotted solid double; ordem de alteração com 3: dotted em cima/ solid nas laterais/ double embaixo.
+    border-style: dotted solid; ordem de alteração com 2: dotted em cima e embaixo/ solid nas laterais.
+    border-style: solid; ordem de alteração com 1: solid ao redor de tudo.
+    usando border-style tem q usar os outros comandos separados, como o border-color.
+    */
+
+    /* quando usamos cores, n deixamos em black,white.. mas sim em rgb ou em hexadecimal ex:ffffff. */
+    /* forma completa
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    */
+    
+}
